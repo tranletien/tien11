@@ -1,0 +1,34 @@
+/* tin tuc */
+.post-image{
+    overflow: hidden;
+}
+.post-image img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+}
+.post-image:hover img{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+/* san pham */
+.product-image{
+    overflow: hidden;
+}
+.product-image img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+}
+.product-image:hover img{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+.title-contact{
+    text-shadow:4px 4px 8px rgb(245, 117, 117);
+}

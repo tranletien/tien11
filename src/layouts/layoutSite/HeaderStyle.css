@@ -1,0 +1,222 @@
+.shadow {
+
+    background-color: white;
+    text-shadow: 0px 16px 10px 0px #888888;
+}
+
+.myfooter {
+    background-color: beige;
+}
+
+.myfooter ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.News {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    background-color: lightgray;
+    background-image: url("../../assets/image/imageTC/Capture.PNG");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.new-head {
+    color: black;
+    font-weight: 500;
+
+}
+
+.new-body {
+    color: black;
+}
+
+.content {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.content img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+
+.styleL {
+    list-style-type: circle;
+
+
+}
+
+.styleL a {
+    color: black;
+}
+
+.myfooter {
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+#Link {
+    list-style-type: none;
+}
+
+.Login {
+    padding: 0px;
+    margin: 0px;
+}
+
+.Login a {
+    text-decoration: none;
+    padding-left: 10px;
+
+}
+
+.list-menu {
+    padding: 0px;
+    margin: 0px;
+}
+
+.list-menu a {
+    text-decoration: none;
+}
+
+.Arrow a {
+    text-decoration: none;
+    color: black;
+}
+
+.News {
+    padding: 0px;
+    margin: 0px;
+}
+
+.News .news {
+    margin: 0 10px
+}
+
+.new-body {
+    height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 20px;
+    text-decoration: none;
+}
